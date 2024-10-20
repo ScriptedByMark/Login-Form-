@@ -1,0 +1,149 @@
+/* Import Google Font: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universal reset for margin, padding and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Form container styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-bottom: 0.4em;
+  padding-right: 2em;
+  background-color: #171717;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 5px 0px, 
+              rgba(255, 255, 255, 0.05) 0px 1px 1px 0px;
+}
+
+/* Form heading */
+.heading {
+  text-align: center;
+  margin: 0.9em;
+  color: rgb(0, 255, 200);
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+/* Form fields styling */
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 19px rgb(5, 5, 5);
+}
+
+/* Icon inside input field */
+i {
+  font-size: 15px;
+  color: rgb(0, 255, 200);
+}
+
+/* Input field styling */
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: rgb(0, 255, 200);
+}
+
+/* Submit button styling */
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  margin-top: -25px;
+  transition: .2s ease-in-out;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+  color: #d2d2d2;
+}
+
+/* Card styling */
+.card {
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 22px;
+  transition: all .3s;
+}
+
+/* Hover effect for the card */
+.card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+/* Second card styling */
+.card2 {
+  border-radius: 0;
+  transition: all .2s;
+}
+
+/* Hover effect for second card */
+.card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+/* Styling for account-related text */
+.acc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.acc p {
+  font-size: 13px;
+  color: #979797;
+}
+
+/* Link styling for account-related text */
+.acc a {
+  text-decoration: none;
+  color: #979797;
+  font-weight: 600;
+}
+
+.acc a:hover {
+  text-decoration: underline;
+}
